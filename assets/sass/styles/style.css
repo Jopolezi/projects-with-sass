@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  max-width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  padding: 0 4%;
+  font-family: "Poppins", sans-serif;
+}
+.header .logo h1 {
+  color: #c1c1c1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header .logo h1:hover {
+  color: #fff;
+  transform: translateX(3px);
+}
+.header .navbar {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+}
+.header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+.header .navbar ul li {
+  color: #fff;
+  transition: 0.5s;
+}
+.header .navbar ul li:hover {
+  color: #c1c1c1;
+}
+.header button {
+  background: #c1c1c1;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 100px;
+  height: auto;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header button:hover {
+  background: #fff;
+  color: #c1c1c1;
+}/*# sourceMappingURL=style.css.map */
