@@ -1,0 +1,9 @@
+@mixin Flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin HeaderFont {
+    font-family: "Outfit", sans-serif;
+}
